@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+    rel="stylesheet">
+    
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="./js/script.js"></script>
+    
+    <title>Devfolio</title>
+    <meta name="title" content="Devfolio">
+</head>
+<body>  
+
+<header class="topbar">
+    <a href="#" class="logo">
+        <img src="./assets/images/Logo_dark.png" alt="Devfolio" width="145"  height="32" class="dark">
+    
+        <img src="./assets/images/Logo_light.png" alt="Devfolio" width="145"  height="32" class="light">
+    </a>
+
+    <button class="icon-btn theme-btn" data-theme-btn>
+        <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+        <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+
+        <div class="state-layer"></div>
+    </button>
+</header>
+
+<section class="section hero">
+    <div class="container">
+
+        <figure class="hero-banner img-holder" style="--width:240; --height: 240;">
+            <img src="./assets/images/profile.png" width="240" height="240" alt="Ahmed Khalid" class="img-cover">
+        </figure>
+
+        <div class="hero-content">
+            <span class="label-large section-subtitle">Software Engineer</span>
+
+            <h1 class="display-small">Dylan Barga</h1>
+
+            <p class="body-large section-text">Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi lobortis tristique.</p>
+
+            <div class="btn-wrapper">
+                <a href="mailto:dylanbarga3@gmail.com" class="chip">
+                    <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+
+                    <span class="label-large">dylanbarga3@gmail.com</span>
+
+                    <div class="state-layer"></div>
+                </a>
+
+                <a href="tel:+7274881097" class="chip">
+                    <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+
+                    <span class="label-large">727-488-1097</span>
+
+                    <div class="state-layer"></div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<div class="article">
+
+    <div class="about-card">
+
+        <h4 class="card-title title-medium">About</h4>
+
+        <p class="body-medium card-text">
+            A passionate software engineer with a strong background in Computer Science.
+        </p>
+
+        <ul class="about-list">
+            
+            <li class="list-item">
+                <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+
+                <span class="label-medium">Cairo, Egypt</span>
+            </li>
+            <li class="list-item">
+                <span class="material-symbols-outlined" aria-hidden="true"> work </span>
+
+                <span class="label-medium">TechGulf Solutions</span>
+            </li>
+            <li class="list-item">
+                <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+
+                <span class="label-medium">https://example.com</span>
+            </li>
+
+        </ul>
+
+    </div>
+
+</div>
+    
+</body>
+</html>
