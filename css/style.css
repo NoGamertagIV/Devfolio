@@ -419,6 +419,13 @@ button .material-symbols-outlined {
  */
 
 
+ .card {
+  background-color: var(--surface-container-low);
+  border-radius: var(--radius-medium);
+  padding: 16px;
+  --state-layer-bg: var(--on-surface);
+ }
+
 /**
  * INPUT FIELD
  */
@@ -545,7 +552,11 @@ button .material-symbols-outlined {
   #PROJECT
 \*-----------------------------------*/
 
-
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
 
 
 
