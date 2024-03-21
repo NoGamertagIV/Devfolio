@@ -421,7 +421,7 @@ button .material-symbols-outlined {
 
  .card {
   background-color: var(--surface-container-low);
-  border-radius: var(--radius-medium);
+  border-radius: var(--shape-corner-medium);
   padding: 16px;
   --state-layer-bg: var(--on-surface);
  }
