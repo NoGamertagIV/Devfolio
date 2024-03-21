@@ -325,6 +325,8 @@ button .material-symbols-outlined {
 
 :has(> .state-layer):is(:focus, :focus-visible, :active) .state-layer {opacity: 0.12;}
 
+.tab-content:not(.active) {display: none;}
+
 
 /*-----------------------------------*\
   #COMPONENT
@@ -425,6 +427,22 @@ button .material-symbols-outlined {
   padding: 16px;
   --state-layer-bg: var(--on-surface);
  }
+
+ .card-banner {
+  border-radius: var(--shape-corner-medium);
+ }
+
+ .card-content {
+  display: grid;
+  gap: 4px;
+
+ }
+
+ .card-subtitle {
+  color: var(--on-surface-variant);
+ }
+
+ .card-title{ color: var(--on-surface);}
 
 /**
  * INPUT FIELD
