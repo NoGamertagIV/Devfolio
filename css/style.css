@@ -327,6 +327,11 @@ button .material-symbols-outlined {
 
 .tab-content:not(.active) {display: none;}
 
+.section-title {
+  margin-block-end: 16px;
+  margin-top: 16px;
+}
+
 
 /*-----------------------------------*\
   #COMPONENT
@@ -583,10 +588,40 @@ button .material-symbols-outlined {
   #RESUME
 \*-----------------------------------*/
 
+.resume-tab .list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-block-end: 28px;
+}
 
+.resume-card {
+  display: grid;
+  gap: 4px;
+}
 
+.resume-card .card-subtitle {
+  color: var(--primary-dark);
+}
 
+.resume-card .card-text {color: var(--on-surface-variant);}
 
+.resume-bottom-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.resume-bottom-item {
+  background-color: var(--surface-container);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border-radius: var(--shape-corner-small);
+}
+
+.resume-bottom-item .icon {height: 28px;}
 /*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
