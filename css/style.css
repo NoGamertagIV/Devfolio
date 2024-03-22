@@ -655,6 +655,11 @@ button .material-symbols-outlined {
 
 .contact-info {margin-block-end: 24px;}
 
+.contact-info-list{
+  padding-block-end: 12px;
+  border-block-end: 1px solid var(--outline-variant);
+}
+
 
 
 /*-----------------------------------*\
