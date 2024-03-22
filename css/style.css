@@ -316,7 +316,7 @@ button .material-symbols-outlined {
 .state-layer {
   position: absolute;
   inset: 0;
-  background-color: var(--state-layer-bg);
+  background-color: var(--state-layer-bg); 
   transition: var(--motion-duration-short-1) var(--motion-easing-linear);
   opacity: 0;
 }
@@ -426,6 +426,7 @@ button .material-symbols-outlined {
   border-radius: var(--shape-corner-medium);
   padding: 16px;
   --state-layer-bg: var(--on-surface);
+  
  }
 
  .card-banner {
