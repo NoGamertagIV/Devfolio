@@ -2,9 +2,7 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2023 codewithsadee
- */
+
 :root {
   --background-light: hsl(293, 100%, 98%);
   --on-background-light: hsl(264, 8%, 12%);
@@ -445,6 +443,8 @@ button .material-symbols-outlined {
   background-color: var(--surface-container-low);
   border-radius: var(--shape-corner-medium);
   padding: 16px;
+  display: grid;
+  gap: 16px;
   --state-layer-bg: var(--on-surface);
   
  }
@@ -725,13 +725,49 @@ button .material-symbols-outlined {
 
 
 /*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+
+@media (min-width: 768px) {
+
+  .article {
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: flex-start;
+  }
+
+  .about-card,
+  .primary-tabs {
+    position: sticky;
+    top: 64px;
+  }
+
+  .primary-tabs {
+    z-index: 2;
+  }
+
+  .hero .container {
+    grid-template-columns: 0.2fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+
+.container,
+.article {
+  max-width: 1128px;
+  margin-inline: auto;
+}
+
+.about-card {
+  margin-inline: 8px;
+}
+
+.contact-tab .container{
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: 0.6fr 1fr;
+  gap: 24px;
+}
+}
