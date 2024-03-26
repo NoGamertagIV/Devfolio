@@ -17,7 +17,7 @@ const changeTheme = () => {
 
 $themeBtn.addEventListener("click", changeTheme);
 
-const $tabBtn = document.querySelector("[data-tab-btn]");
+const $tabBtn = document.querySelectorAll("[data-tab-btn]");
 let [lastActiveTab] = document.querySelectorAll("[data-tab-content]");
 let [lastActiveTabBtn] = $tabBtn;
 
