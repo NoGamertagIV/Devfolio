@@ -1,3 +1,5 @@
+
+
 /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
@@ -505,6 +507,16 @@ button .material-symbols-outlined {
   align-items: center;
   padding-inline: 16px;
   z-index: 4;
+}
+
+.light {
+  font-size: 24px;
+  font-family: "Lora";
+}
+
+.dark {
+  font-size: 24px;
+  font-family: "Lora";
 }
 
 [data-theme="dark"] .logo .light,
